@@ -22,10 +22,11 @@ void main() {
   final String nickName = "J";
   print(nickName);
 
-  //declaring and not using it
+  //declaring and not using it (null)
   var myName;
   print(myName);
 
+  // Assigning to it
   myName = "John";
   print(myName);
 }
